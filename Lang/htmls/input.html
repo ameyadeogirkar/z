@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY LIBRARY</title>
+    <link rel="stylesheet" href="htmls.css">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <div class="inp1">
+        <p>The tag specifies an input field where the user can enter data.</p>
+        <img src="inpEX.png" alt="Example" height="370" width="683">
+    </div>
+    <div class="inp2">
+        <p><b>Syntex</b></p>
+        <img src="InpRef.png" alt="Refrence" >
+    </div>
+
+    <div class="footer">
+        <p>
+          Developed by Ameya Deogirkar<br>
+          Powered by Tail-Blocks-CSS
+        </p>
+      </div>
+      <script>
+        document.onkeydown=function(e){
+          if(event.keyCode == 123){
+            return false;
+          }
+          if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+          }
+          if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+          }
+          if(event.keyCode == 85){
+            return false;
+          }
+        }
+      </script>
+</body>
+</html>

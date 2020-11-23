@@ -1,0 +1,37 @@
+body{
+    background-color: 	#202837;
+    color: #A0AEC0;
+}
+.content{
+    background-color: #1A202C;
+    border:solid darkcyan;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+::-webkit-scrollbar{
+    width: 13px;
+    background-color:#2e3646;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #29797c;
+    border-radius: 80px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+}
+.a{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.titleBar{
+    opacity: 0.9;
+}
+.footer{
+    background-color: #1A202C;
+    text-align: center;
+    text-justify: auto;
+}
+a:hover{
+    color: darkcyan;
+}

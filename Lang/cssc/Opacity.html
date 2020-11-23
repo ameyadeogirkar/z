@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY LIBRARY</title>
+    <link rel="stylesheet" href="c.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="opacity1">
+        <p>
+            The opacity property specifies the opacity/transparency of an element.<br>
+            The Opacity property  can take a value from 0.0 - 1.0.<br>
+            The lower value, the more transparent<br>
+        </p>
+    </div>
+    <div class="opacity2">
+        <h2>Preview</h2>
+        <img src="Opacity1.jpg" alt="image1" id="img1" width="340">
+        <img src="Opacity1.jpg" alt="image2" id="img2" width="340">
+        <img src="Opacity1.jpg" alt="image3" id="img3" width="340">
+        <img src="Opacity1.jpg" alt="image4" id="img4" width="340">
+    </div>
+
+    <div class="opacity3">
+        <h2>Syntex</h2>
+        <img src="opacity2.png" alt="syntex" height="340">
+    </div>
+
+    <div class="footer">
+        <p>
+          Developed by Ameya Deogirkar<br>
+          Powered by Tail-Blocks-CSS
+        </p>
+      </div>
+
+    <script>
+        document.onkeydown=function(e){
+          if(event.keyCode == 123){
+            return false;
+          }
+          if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+          }
+          if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+          }
+          if(event.keyCode == 85){
+            return false;
+          }
+        }
+      </script>
+</body>
+</html>

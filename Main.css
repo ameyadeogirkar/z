@@ -1,0 +1,35 @@
+body{
+    background-color: #202837;
+}
+::-webkit-scrollbar{
+    width: 13px;
+    background-color:#2e3646;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #29797c;
+    border-radius: 80px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+}
+.footer{
+    background-color: #202837;
+    color: #A0AEC0;
+    text-align: center;
+}
+a:hover{
+    color: #29797c;
+}
+
+.transaction{
+    animation: transaction1 2s;
+}
+
+@keyframes transaction1{
+    from{
+        opacity: 0;
+        transform: rotateX(30deg);
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}

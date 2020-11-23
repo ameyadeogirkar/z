@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" oncontextmenu="return false">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY LIBRARY</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="htmls.css">
+</head>
+<body>
+    <div class="intro">
+        <div class="whatIs">
+        <h1>What is HTML?</h1><br>
+         <p>
+            &#9899; HTML stands for Hyper Text Markup Language<br>
+            &#9899; HTML is the standard markup language for creating Web pages<br>
+            &#9899; HTML describes the structure of a Web page<br>
+            &#9899; HTML consists of a series of elements<br>
+            &#9899; HTML elements tell the browser how to display the content<br>
+         </p>
+            <br>
+            <br>
+        </div>
+        <div class="doc">
+            <h2>A Simple HTML Document</h2><br>
+            <img src="structure.png" alt="Basic structure" srcset="">
+    </div>
+
+    <div class="footer">
+        <p>
+          Developed by Ameya Deogirkar<br>
+          Powered by Tail-Blocks-CSS
+        </p>
+      </div>
+      <script>
+        document.onkeydown=function(e){
+          if(event.keyCode == 123){
+            return false;
+          }
+          if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
+            return false;
+          }
+          if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
+            return false;
+          }
+          if(event.keyCode == 85){
+            return false;
+          }
+        }
+      </script>
+</body>
+</html>

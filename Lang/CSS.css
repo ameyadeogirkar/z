@@ -1,0 +1,30 @@
+body{
+    background-color: #202837;
+    color: #A0AEC0;
+}
+.CSS-Content{
+    background-color: #1A202C;
+    border:solid darkcyan;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.titleBar{
+    opacity: 0.9;
+}
+.footer{
+    background-color: #1A202C;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+a:hover{
+    color: darkcyan;
+}

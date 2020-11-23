@@ -1,0 +1,31 @@
+body{
+    background-color: #202837;
+    color: #A0AEC0;
+}
+::-webkit-scrollbar{
+    width: 13px;
+    background-color:#2e3646;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #29797c;
+    border-radius: 80px;
+    box-shadow: 0 5px 15px rgb(0, 0, 0);
+}
+a:hover{
+    color: darkcyan;
+}
+.a{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer{
+    background-color: #1A202C;
+    text-align: center;
+    text-justify: auto;
+}
+.JS_content{
+    background-color: #1A202C;
+    border:solid darkcyan;
+    text-align: center;
+}
